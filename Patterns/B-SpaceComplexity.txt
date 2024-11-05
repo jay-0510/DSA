@@ -1,0 +1,13 @@
+SPACE COMPLEXITY :
+
+Memory space in ehich program takes to run -- (Naive form)
+Memory space in which program takes to run -- (Optimized form)
+
+Auxiliary Space + Input Space 
+Auxiliary Space - Space that you taken to solve the problem
+Input Space - Space that you already have (to store input)
+
+eg: c = a + b 
+Auxiliary Space = 1 (for storing c)
+Input Space = 2 (for storing a and b)
+Total Space = 1 + 2 = 3 ----- O(3) - Total Time Complexity 

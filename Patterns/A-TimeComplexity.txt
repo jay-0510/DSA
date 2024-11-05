@@ -1,0 +1,38 @@
+// Time Complexity : 
+rate at which the time taken increases with respect to input size. 
+
+// BIG OH NOTATION:-- 
+//describe the upper bound of time complexity.
+//describe the worst case scenario.
+//describe the maximum time taken by an algorithm.
+//describe the time complexity of an algorithm in terms of input size.
+
+1. computed in worst case scenario
+2. Avoid constant
+3. Avoid lower values
+
+
+// 1. O(1) : constant time complexity
+// 2. O(log n) : logarithmic time complexity
+// 3. O(n) : linear time complexity
+// 4. O(n log n) : linearithmic time complexity
+// 5. O(n^2) : quadratic time complexity
+// 6. O(2^n) : exponential time complexity
+// 7. O(n!) : factorial time complexity
+
+// THREE TYPES OF TIME COMPLEXITY: --
+// 1. best case scenario -- when the input is smallest
+// 2. average case scenario -- when the input is average
+// 3. worst case scenario -- when the input is largest
+
+Average time complexity - median of both ---- Best + worst / 2
+
+1. Big Oh (O) - worst case and Upper bond 
+2. Big Omega (Ω) - best case and lower bound
+3. Big Theta (θ) - average case and tight bound
+
+
+
+
+
+

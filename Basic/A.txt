@@ -1,0 +1,30 @@
+Basic terms need to remember :
+
+//Loop conditionals -- 
+1. for and while loops - question solving 
+2. % - use for finding remainders, check divisibility, and extract digits.
+3. Division / can be used in conjunction with % to break down numbers.
+
+//Modulo and Divison Operations -- 
+4. Divisors: Check if n % i == 0.
+5. Palindrome and Reverse: Use % to get digits and / to remove the last digit.
+
+//  Mathematical formulas and concepts. 
+6. GCD: Use the Euclidean algorithm for efficient computation.
+7. LCM: Use LCM(a, b) = (a * b) / GCD(a, b).
+8. Factorial: Use iterative multiplication up to n.
+
+//Digit manipulation
+9. Sum of Digits: Continuously extract the last digit and add it to a sum.
+10.Armstrong Number: Raise each digit to the power of the number of digits and sum the results.
+11.Palindrome: Reverse the number using digit manipulation and check if it matches the original.
+
+// Recursive Logic 
+12. Factorial: Use recursive multiplication up to n.
+13. Fibonacci: Use recursive addition up to n.
+14. Binary to Decimal: Use recursive multiplication up to n.
+15. Decimal to Binary: Use recursive division up to n.
+
+
+// looping, modulo operations, digit manipulation, mathematical concepts, arrays, recursion, and edge cases—are essential for approaching many coding problems.
+
