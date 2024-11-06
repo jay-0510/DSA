@@ -1,0 +1,10 @@
+//RECURSION --- 
+when a function calls itself until a specified condition is met. 
+
+// Infinite Recursion - calling function again and again 
+
+//STACK OVERFLOW - 
+when numerous function calls are waiting due to recursion. 
+Whenever recursion calls are executed, they’re simultaneously stored in a recursion stack.
+If the recursion stack is full, it leads to a stack overflow error. (Segmentation fault error)
+
