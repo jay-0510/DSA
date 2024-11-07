@@ -1,0 +1,5 @@
+// Recursion Tree 
+// basically a representative form of recursion which depicts how functions are called and returned as a series of events happening consecutively.
+
+// when it is completed, it head  backs towards parent function. 
+// when function call someone, that called someone, that called another one --- basically shorter version of diagrammatic representation

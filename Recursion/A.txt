@@ -1,5 +1,7 @@
 //RECURSION --- 
 when a function calls itself until a specified condition is met. 
+or 
+recursion is a method where a function calls itself to solve a problem.
 
 // Infinite Recursion - calling function again and again 
 
@@ -7,4 +9,11 @@ when a function calls itself until a specified condition is met.
 when numerous function calls are waiting due to recursion. 
 Whenever recursion calls are executed, they’re simultaneously stored in a recursion stack.
 If the recursion stack is full, it leads to a stack overflow error. (Segmentation fault error)
+
+// - Remaining non executed functions (non completed functions) 
+
+
+// Recursive case : condition under which the function calls itself, breaking down the problem into smaller subproblems.
+// Base case : Simplest case where the function doesn’t call itself, thus ending the recursion. This is essential to avoid infinite recursion.
+
 
