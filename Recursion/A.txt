@@ -17,3 +17,6 @@ If the recursion stack is full, it leads to a stack overflow error. (Segmentatio
 // Base case : Simplest case where the function doesn’t call itself, thus ending the recursion. This is essential to avoid infinite recursion.
 
 
+// Two types :
+// parameterised 
+// Functional recursion 
