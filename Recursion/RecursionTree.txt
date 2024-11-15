@@ -8,3 +8,5 @@ JAVA
 C++ 
 
 Optimal Soltuion
+// The optimal solution for this problem is to use a recursive approach with memoization to store the results
+
