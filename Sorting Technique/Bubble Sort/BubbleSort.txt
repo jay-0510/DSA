@@ -1,0 +1,8 @@
+// Pushes maximum to the last by adjacent side
+This process is repeated until the list is sorted.
+// Movemnent of array is just like movement of air bubbles in water - bubble sort
+
+Best Case:  O(n)  array is already sorted.
+Worst Case:  O(n^2)  for a completely reversed array
+Average Case:  O(n^2)  for a random array
+Space Complexity:  O(1) .

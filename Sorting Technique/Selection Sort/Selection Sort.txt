@@ -1,0 +1,11 @@
+// Select minimum and swap 
+// It is simplest algorithm 
+// Simple and easy to element
+Algorithm is divided into two parts - Sorted part and Unsorted part 
+  {Sorted part is empty}     {Unsorted part is given array}
+
+Average Time Complexity - O(n2)
+Worst Case Complexity - O(n2)
+Space Complexity - O(1)
+
+
