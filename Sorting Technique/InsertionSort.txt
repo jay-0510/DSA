@@ -1,0 +1,9 @@
+// Comparison based sorting algorithm 
+// Takes an element & place it in all correct order.
+
+// Best Case - O(n)
+
+// Average Case - O(n2)
+// Worst Case - O(n2)
+
+// Space Complexity - O(1)

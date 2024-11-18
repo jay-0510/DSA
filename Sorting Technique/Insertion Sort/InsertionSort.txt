@@ -1,2 +1,0 @@
-// Comparison based sorting algorithm 
-// Takes an element & place it in all correct order.
