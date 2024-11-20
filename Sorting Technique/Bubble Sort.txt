@@ -1,7 +1,0 @@
-// Compare adjacent elements and swap them if they are in wrong order. 
-
-
-Best Case:  O(n)  (array already sorted, with optimization).
-Worst Case:  O(n^2)  (array is reverse sorted).
-Average Case:  O(n^2) .
-Space Complexity:  O(1) .
