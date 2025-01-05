@@ -1,0 +1,26 @@
+// String - Linear Data Structure 
+// String are sequence of characters 
+// String are immutable in Java, pyhton, Javascript [Can't be unmodifiable or unchangeables]
+// Used to store and manipulate data.
+// String is a class in Java
+
+// Used to store and process large amount of text data from simple strings to complex sentences, paragraphs, and even entire books. 
+// strings are implemented as an array of characters, with each character having a unique index position
+
+* Text are also called string bcox it consist of characters like string
+
+Advantages :
+1. Text Processing
+2. Data Representation
+3. Ease of Use 
+4. Flexibility
+5. Compatibility & Scalability
+6. Memory efficiency 
+
+
+Disadvantages:
+1. Memeory consumption 
+2. Immutability
+3. Performance overhead 
+4. Encoding and Decoding overhead 
+5. Security vulnerabilities 

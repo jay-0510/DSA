@@ -1,0 +1,18 @@
+// Arrays - linear Data structure 
+// Arrays is a collection of elements of the same data type stored in contiguous memory locations.
+
+* Mainly advantage - Random access & Cache friendliness
+* Array at core are at fixed size only. 
+
+Advantages :
+1. Efficient and fast access
+2. Memory efficiency
+3. Versality
+4. Compatibility with hardware
+
+Disadvantages :
+1. Fixed size
+2. Memory allocation 
+3. Insertion and deletion is costly & Challenging
+4. Limited data type support
+5. Not suitable for large data sets
