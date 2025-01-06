@@ -1,0 +1,32 @@
+Linked List - Linear Data Structure
+Used to store a collection of data with the help of nodes 
+
+* last node of the linked list points to null.
+* entry point of a linked list is known as the head. 
+* consecutive elements are connected by pointers / references.
+
+
+// Mainly follows efficient insertion and deletion 
+// Data Structure -- Non Contigous 
+// Access : Sequential 
+// Memory Allocation: Typically allocated one by one to individual elements
+
+Advantages : 
+1. Efficient insertion and deletion 
+2. Used to implement a stack, queue and other abstract data structure 
+3. More space efficient 
+4. Used in memory constrained systems and Embedded systems 
+
+Disadvantages :
+1. Slow access time 
+2. Pointers or References 
+3. higher Overhead 
+4. Cache inefficiency 
+
+Application :
+1. Dynamic memory Allocation
+2. implement stacks, queue, deque, sparse matrices and adjacency list representation of graphs.
+3. Manipulation of polynomials
+4. Arithmetic operations on long integers.
+5. In OS - used in Memory management, process scheduling, file systems
+6. LRU cache - uses a doubly linked list to keep track of the most recently used items in a cache.

@@ -1,0 +1,9 @@
+// Doubly Linked List 
+Each node has 3 part : DATA & NEXT POINTER & PREVIOUS POINTER 
+Data stores the the information 
+Next pointer points to the next node
+Previous pointer points to the previous node
+Next pointer of last node stores null 
+Traversal is dobe in both forward and backward direction 
+Insertion and deletion is done in both forward and backward direction
+

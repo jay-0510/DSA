@@ -1,0 +1,5 @@
+// Singly Linked List 
+Each node has two part : DATA & NEXT POINTER 
+Each node contains a data field and a reference to the next node in the linked list.
+The next of the last node is null, indicating the end of the list.
+

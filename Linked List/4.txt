@@ -1,0 +1,24 @@
+// Circular Doubly Linked List 
+Its a type of linked list in which the first & the last nodes are also connected to each other to form circle.
+There is no NULL at the end. 
+
+
+* Circular :  circular doubly linked list’s main feature is that it is circular in design.
+* Doubly Linked :  In a doubly linked list, each node has two pointers, one pointing to node before it and other pointing of the node after it
+* Header Node : start of circular doubly linked lists, a header node or sentinel node is frequently used. 
+
+Applications : 
+1. Music player playlist 
+2. Cache memory management 
+3. Implementing undo - redo operations 
+
+Advantages :
+1. Efficient insertion and deletion
+2. Fast traversal
+3. Memory efficient
+4. Easy to implement circular data structure
+
+Disadvantages :
+1. Complexity 
+2. Cost of circularity 
+3. More complex to debug 
