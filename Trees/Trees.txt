@@ -1,1 +1,23 @@
-// TREES 
+// TREES - NON LINEAR DATA STRUCTURE 
+It doesn’t store in a sequential manner 
+Defined as a collection of objects or entities known as node that are linked together to represent hierarchy.
+It is a hierarchial structure as elements in a tree are arranged in multiple levels.
+
+* TOP MOST NODE - root node - Contains some data
+Each node contains some data and the link or reference of other nodes that can be called children.
+
+* TOP MOST NODE - root node
+* CHILD NODES - child nodes of root node
+* GRAND CHILD NODES - child nodes of child nodes (PARENT NODE) 
+* GRAND GRAND CHILD NODES - child nodes of grand child nodes (Sibling)
+
+* LEAF NODES - nodes that do not have any child nodes
+* INTERIOR NODES - nodes that have child nodes - atleast one child 
+* EDGE - connection between two nodes
+* DESCENDANT - The immediate successor of given node is called ....
+
+ Properties :
+ 1. Each node in a tree has at most one parent node (except root node)
+ 2. Tree is known as recursive data structure, bcoz the distinguished node is a tree data structure...
+ 3. If there are N nodes then N-1 EDGE
+ 4. Heigh node X is longest path from the node X to be leaf node. 

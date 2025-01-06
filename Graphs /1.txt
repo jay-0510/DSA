@@ -1,0 +1,40 @@
+//GRAPH - NON LINEAR DATA STRUCTURE - consist of vertices (V) n edges (E)
+The Graph is denoted by G(V, E).
+vertices - Nodes and Edges are lines or arcs that connect any two nodes in the graph.
+Edges - can be directed or undirected.
+
+Uses :
+1. Social Network Analysis
+2. Web Crawling
+3. Network Topology
+4. Traffic Flow
+5. Recommendation Systems
+6. Network Security and Optimization
+7. understand the dynamics of team performance and player interactions on the field.
+
+
+
+Components :
+1. Vertices - fundamental units of the graph. Vertices are also known as vertex or nodes. Every node/vertex can be labeled or unlabelled.
+2. Edges : Edges are drawn or used to connect two nodes of the graph.
+Edges can connect any two nodes in any possible way. edges are also known as arcs. Every edge can be labelled/unlabelled.
+
+
+
+GRPAHS :
+1. Null Graph : A graph with no edges is called a null graph.
+2. Complete Graph : A graph in which every vertex is connected to every other vertex is called...
+3. Simple Graph : A graph with no multiple edges between any two vertices is called a simple graph
+4. Weighted Graph :  A graph in which the edges are already specified with suitable weight is known..
+5. Directed Graph : A graph in which every edge has a direction is called a directed graph. nodes are ordered pairs
+6. Undirected Graph : A graph in which edges do not have any direction. That is the nodes are unordered pairs
+7. Trivial Graph : Graph having only a single vertex, it is also the smallest graph possible. 
+8. Connected Graph : The graph in which from one node we can visit any other node in the graph
+9. Disconnectd Graph : The graph in which at least one node is not reachable from a node is...
+10. Regular Graph : The graph in which the degree of every vertex is equal to K is called K regular graph.
+11. Cycle Graph : A graph containing at least one cycle is known as a Cyclic graph.
+11. Directed Acyclic Graph : A Directed Graph that does not contain any cycle. 
+12. Biparite Graph : A graph in which vertex can be divided into two sets such that vertex in each set does not contain any edge between them.
+
+
+
