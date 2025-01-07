@@ -1,0 +1,54 @@
+HEAP : A Heap is a specialized binary tree-based data structure that satisfies the heap property.
+- It is implemented as a complete binary tree.
+- It either follows max heap or min heap property.
+
+* Key difference :
+A heap is designed for priority-based operations (e.g., finding the max/min), while a BST supports sorted order and searching efficiently.
+
+* KEY CONCEPTS :
+
+Max heap : The value of the parent node is greater than or equal to its children.
+-  A[parent(i)] >/ A[i] 
+
+Min heap : The value of the parent node is less than or equal to its children.
+-  A[parent(i)] \< A[i] .
+
+Heapify : The process of maintaining the heap property after insertion or deletion of an element.
+-  Heapify up : When an element is inserted, we need to heapify up to maintain
+-  Heapify down : When an element is deleted, we need to heapify down to maintain
+
+
+* Array Represetation :  HOW MAX-HEAP IS REPRESENTED IN AN ARRAY ?? 
+Root at index 0 
+Parent of node  i :  {floor}((i - 1) / 2) 
+Left child of node  i :  2i + 1 
+Right child of node  i :  2i + 2 
+
+* Heap Operations :
+Insertion : Add the new element at the end n "heapify-up" to maintain the heap property
+Deletion : Remove the root (max/min), replace it with the last element & restore the heap 
+Build-Heap: Construct a heap from an unsorted array in  O(n)  time using a bottom-up approach.
+
+* Advantages : 
+1. Efficient access to the max/min element in  O(1) .
+2. Insertion and deletion are optimized at  O(\log n) .
+3. Can be implemented using arrays for space efficiency.
+4. Useful for dynamic data with priority-based operations.
+
+* Disadvantages :
+1. Not suitable for search operations.
+2. Not efficient for insertion and deletion at arbitrary positions.
+3. Limited to complete binary tree structure.
+
+* Application Real time :
+1. Priority Queues
+2. Event Handling
+3. Job Scheduling
+4. Huffman Coding
+5. Dijkstra's Algorithm
+6. Top K Elements
+7. Median Finding - Dynamic median calculation.
+8. Heap Sort
+
+
+

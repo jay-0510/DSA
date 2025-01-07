@@ -1,0 +1,37 @@
+HASP MAP - process of generating a fixed-size output from an input of variable size using the mathematical formulas known as hash functions. 
+
+HASH MAP - stores data in key-value pairs using a hashing mechanism.
+- It allows fast retrieval, insertion, and deletion based on hash codes.
+- It uses a hashing technique to efficiently retrieve, insert, and delete data in constant average time complexity  O(1) .
+
+
+HASHING : It's the process of converting a key into an integer (hash code) using a hash function.
+- Use to determine an index or location for the storage of an item in a data structure. 
+- If two keys produce the same hash code (collision), a collision-handling mechanism like chaining is used.
+
+
+Applications :
+1. Data Integrity
+2. Database Indexing
+3. Cryptography 
+4. Caches 
+5. Symbol table and Dictionaries 
+
+* mainly two forms of hash typically implemented in programming languages
+1. Hash Set     2. Hash Map 
+
+* Components 
+1. Key :  Key can be anything string or integer which is fed as input in the hash function the technique that determines an index or location
+2. Hash Function :  Receives the input key and returns the index of an element in an array ..... (hash Index)
+3. Hash Table : Hash table is typically an array of lists. It stores values corresponding to the keys.
+
+
+Advantages :
+1. fast retrieval and Insertion 
+2. Handle large data set efficiently
+
+Disadvantages : 
+1. Requires more memory 
+2. Performance depends on hash function quality.
+3. Not thread-safe
+

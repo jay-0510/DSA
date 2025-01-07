@@ -3,6 +3,9 @@ It doesn’t store in a sequential manner
 Defined as a collection of objects or entities known as node that are linked together to represent hierarchy.
 It is a hierarchial structure as elements in a tree are arranged in multiple levels.
 
+Represetation :
+1. Adjacency Matrix    2. Adjacency List
+
 * TOP MOST NODE - root node - Contains some data
 Each node contains some data and the link or reference of other nodes that can be called children.
 
@@ -21,3 +24,22 @@ Each node contains some data and the link or reference of other nodes that can b
  2. Tree is known as recursive data structure, bcoz the distinguished node is a tree data structure...
  3. If there are N nodes then N-1 EDGE
  4. Heigh node X is longest path from the node X to be leaf node. 
+
+* Advantages :
+1. Models real-world networks (e.g., social, transport).
+2. Flexible representation (adjacency list for sparse graphs).
+3. Supports various algorithms (pathfinding, MST).
+4. Handles both dynamic and static data relationships.
+
+* Disadvantages :
+1. High space complexity for dense graphs.
+2. Complex implementation compared to simpler data structures.
+3. Difficult traversal in large-scale graphs.
+4. Performance depends on graph representation.
+
+* Real-Time Applications :
+1. File systems and directory structures.
+2. Social networks and friend relationships.
+3. Web page navigation and hyperlinks.
+4. Database query optimization and indexing.
+5. Network routing and topology discovery.
