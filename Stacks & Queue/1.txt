@@ -1,4 +1,12 @@
-STACK - 
+STACK - A Liner Data Structure
+LIFO (Last In First Out) Principle, the last element inserted is the first to be popped out. 
+both insertion and deletion operations happen at one end only.
+
+Operation follows :
+FIFO & LIFO 
+
+
+
 
 
 
