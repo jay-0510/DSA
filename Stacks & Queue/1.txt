@@ -1,11 +1,80 @@
 STACK - A Liner Data Structure
+- A stack is a linear data structure in which the insertion of a new element and removal of an existing element takes place at the same end represented as the top of the stack.
+
+
 LIFO (Last In First Out) Principle, the last element inserted is the first to be popped out. 
 both insertion and deletion operations happen at one end only.
 
 Operation follows :
 FIFO & LIFO 
 
+Types of STACK :
+1. Fixed Size Stack : 
+- It is a fixed size stack where the size of the stack is fixed.
+- It is not possible to increase or decrease the size of the stack.
+- If the stack is empty and an attempt is made to remove an element from it, an underflow error occurs.
 
+2. Dynamic Size Stack :
+- It is a dynamic size stack where the size of the stack can be increased or decreased.
+- It is possible to increase or decrease the size of the stack.
+- This type of stack is implemented using a linked list, as it allows for easy resizing of the stack.
+
+* BASIC OPERATIONS OF STACK :
+1. PUSH : used to add an element to the stack.
+2. POP : used to remove an element from the stack.
+3. PEEK : used to view the top element of the stack.
+4. IS EMPTY : used to check if the stack is empty or not.
+5. SIZE : used to get the size of the stack.
+6. CLEAR : used to remove all elements from the stack.
+7. TOP : used to get the top element of the stack.
+8. SEARCH : used to search for an element in the stack.
+9. INSERT : used to insert an element at a specific position in the stack.
+10. DELETE : used to delete an element from the stack.
+11. REPLACE : used to replace an element in the stack.
+
+IMPLEMENTATION of STACK :
+1. Array Implementation :
+- It is the simplest way to implement a stack.
+- It uses an array to store the elements of the stack.
+- The top element of the stack is stored at the end of the array.
+- The size of the stack is fixed.
+- It is not possible to increase or decrease the size of the stack.
+
+- It is not efficient for large stacks.
+- It is not suitable for stacks with a large number of elements.
+
+* Complexity Analysis Structure : --- 
+| Operation | Time Complexity | Space Complexity |
+
+| PUSH |          O(1) |            O(1) |
+| POP |           O(1) |            O(1) |
+| PEEK |          O(1) |            O(1) |
+| IS EMPTY |      O(1) |            O(1) |
+| SIZE |          O(1) |            O(1) |
+| CLEAR |         O(n) |            O(1) |
+| TOP |           O(1) |            O(1) |
+
+
+* APPLICATION OF STACKS : 
+1. Functions calls 
+2. Recursion 
+3. Syntax parsing
+4. Memory management 
+5. Expression evaluation 
+
+* ADVANTAGES OF STACK :
+1. Efficient use of memory
+2. Easy to implement
+3. Fast execution
+4. Suitable for recursive algorithms
+5. Suitable for parsing and manipulation of expressions
+
+* DISADVANTAGES OF STACK :
+1. Limited size / capacity
+2. Not suitable for large data sets
+3. Not suitable for dynamic data structures
+4. Not suitable for data structures with complex relationships
+5. potential overflow 
 
 
 

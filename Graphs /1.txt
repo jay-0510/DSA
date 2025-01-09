@@ -21,7 +21,7 @@ Edges can connect any two nodes in any possible way. edges are also known as arc
 
 
 
-GRPAHS :
+GRAPHS :
 1. Null Graph : A graph with no edges is called a null graph.
 2. Complete Graph : A graph in which every vertex is connected to every other vertex is called...
 3. Simple Graph : A graph with no multiple edges between any two vertices is called a simple graph

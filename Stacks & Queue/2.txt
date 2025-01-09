@@ -1,1 +1,64 @@
-Queues - 
+Queues - LINEAR DATA STRUCTURE 
+- follows FIFO (First In First Out) Principle,
+- so the first element inserted is the first to be popped out.
+
+* BASIC TERMINOLOGY OF QUEUES :
+- ENQUEUE : Insertion of element in the queue.
+- DEQUEUE : Removal of element from the queue.
+- FRONT : The element at the front of the queue.
+- REAR : The element at the rear of the queue.
+- SIZE : The number of elements in the queue.
+- IS EMPTY : Check if the queue is empty or not.
+- PEAK : Get the element at the front of the queue.
+- CLEAR : Remove all elements from the queue.
+- COPY : Create a copy of the queue.
+- REVERSE : Reverse the order of elements in the queue.
+- Capacity: Capacity refers to the maximum number of elements the queue can hold.
+- Size: Size refers to the current number of elements in the queue.
+
+* Complexity Analysis Structure : --- 
+| Operation | Time Complexity | Space Complexity |
+
+| ENQUEUE |          O(1) |            O(1) |
+| DEQUEUE |          O(1) |            O(1) |
+| FRONT |            O(1) |            O(1) |
+| IS EMPTY |         O(1) |            O(1) |
+| IS FULL |          O(1) |            O(1) |
+| SIZE |             O(n) |            O(1) |
+| TOP |              O(1) |            O(1) |
+
+* TYPES OF QUEUES :
+- 1. FIFO (First-In-First-Out) Queue : This is the most common type of queue where the first element
+inserted is the first one to be removed.
+
+- 2. LIFO (Last-In-First-Out) Queue : This type of queue follows the principle of Last-In-First-Out.
+The last element inserted is the first one to be removed.
+
+- 3. Priority Queue : This type of queue follows the principle of Priority. The element with the highest priority is removed first.
+
+- 4. Circular Queue : This type of queue follows the principle of Circular. The last element is
+connected to the first element.
+
+- 5. Double Ended Queue (Deque) : This type of queue follows the principle of Double Ended.The elements can be inserted or removed from both ends.
+
+
+
+* ADVANTAGES OF QUEUES :
+1. Large amount of dataset can be manage efficiently 
+2. Operations such as insertion and deletion can be performed with ease
+3. Queues are fast in speed for data inter-process communication.
+4. Queues are useful when a particular service is used by multiple consumers.
+5. Queues can be used in the implementation of other data structures.
+
+* DISADVANTAGES OF QUEUES :
+1. Operations such as insertion and deletion of elements from the middle are time consuming.
+2. Searching an element takes O(N) time.
+3. Maximum size of a queue must be defined prior in case of array implementation.
+4. In a classical queue, a new element can only be inserted when the existing elements are deleted from the queue.
+
+* APPLICATION OF QUEUES :
+1. Job Scheduling : Queues are used in job scheduling in operating systems to manage the jobs
+2. Network Protocols 
+3. Database Systems
+4. Web Browsers
+5. ATM Booth Line || Ticket Counter Line || CPU task scheduling
