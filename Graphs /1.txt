@@ -37,4 +37,33 @@ GRAPHS :
 12. Biparite Graph : A graph in which vertex can be divided into two sets such that vertex in each set does not contain any edge between them.
 
 
+* REPRESENTATION OF GRAPH :
+1. Adjacency Matrix 
+2. Adjacency List 
 
+* Comparison between Adjacency Matrix and Adjacency List 
+Action             Adjacency Matrix        Adjacency List
+Adding Edge            0(1)                    0(1)
+Removing Edge          0(1)                    0(N)
+Initializing           0(N*N)                  0(N)
+
+* APPLICATIONS :
+1. Social Media Analysis
+2. Network Monitoring 
+3. Financial Trading 
+4. IOT Management 
+5. Autonomous Vehicle 
+6. Recommendation Systems
+
+* ADVANTAGES :
+1. Efficient data processing
+2. Path finding 
+3. Visualization
+4. Machine Learing 
+
+* DISADVANTAGES :
+1. Difficulty in interpretation
+2. Limited representation
+3. Privacy concerns
+4. Data quality issues
+5. Scalability issues
