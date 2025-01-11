@@ -24,3 +24,8 @@ Disadvantages:
 3. Performance overhead 
 4. Encoding and Decoding overhead 
 5. Security vulnerabilities 
+
+* APPLICATIONS : 
+1. 
+2.
+3.
