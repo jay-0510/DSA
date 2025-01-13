@@ -1,8 +1,14 @@
 // Arrays - linear Data structure 
 // Arrays is a collection of elements of the same data type stored in contiguous memory locations.
+// Arrays are used to store a collection of data of the same type in a single variable.
+Type : Integer, String, Char, 
 
 * Mainly advantage - Random access & Cache friendliness
+* Mainly disadvantage - Fixed size & Insertion/deletion is costly
 * Array at core are at fixed size only. 
+
+Array is store in 0 index of arrays 
+X, X+1, X+2, X+3, X+4 == is called contiguous locations
 
 Advantages :
 1. Efficient and fast access
@@ -16,3 +22,9 @@ Disadvantages :
 3. Insertion and deletion is costly & Challenging
 4. Limited data type support
 5. Not suitable for large data sets
+
+For arrays :
+for (i=0; i<n; i++)
+{
+    print (arr[]); 
+}
