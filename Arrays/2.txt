@@ -1,0 +1,26 @@
+// Brute Force - 
+// Time Complexity - O(n^2)
+// Space Complexity - O(1)
+
+* PROS - 
+1. Simple and straight forward 
+2. Easy to implement
+3. No extra space required
+
+
+* CONS - 
+1. Time Consuming and resource extensive 
+2. Not suitable for large inputs
+3. ineeficient for large datasets or complex probelms 
+4. Not constructive or creative
+
+
+// Optimal Approach - 
+// Time Complexity - O(n)
+// Space Complexity - O(1)
+
+1. More efficient and suitable for large inputs and complex problems
+2. More constructive and creative than the brute force approach
+3. Reduce steps n number of cases 
+
+

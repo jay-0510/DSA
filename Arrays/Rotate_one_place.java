@@ -1,4 +1,4 @@
-package arrays;
+package Arrays;
 // Left rotate the array by one place
 
 // Time Complexity: O(n)

@@ -1,4 +1,4 @@
-package arrays;
+package Arrays;
 
 class check_if_array_sorted {
     static boolean isSorted(int arr[], int n) {
